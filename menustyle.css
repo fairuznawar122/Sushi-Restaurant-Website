@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body{
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+    background: rgba(255, 174, 66, 0.73)!important;
+   
+}
+.offset:before{
+    display: block;
+    content: "";
+    height: 5rem;
+    margin-top: -5rem;
+}
+/*============= Menu Columns =============*/
+
+.column{
+    float: left;
+    padding: 0.5rem;
+    
+}
+.row{
+    margin: 1rem;
+}
+
+.itemname{
+    color: black;
+    letter-spacing: 1px;;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+}
+
+.menulinks{
+    text-decoration: none!important;
+}
+/*============= Navigation =============*/
+
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: 0.2rem;
+    text-shadow: 0rem 0rem 0rem 0.9rem black;
+    background: rgba(70,70,70, 0.8)!important;
+}
+
+.navbar-brand img{
+    height: 3rem;
+}
+.navbar-nav li{
+    padding-right: 0.7rem;
+    
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding-top: 0.8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:#ffae42 ;
+    font-size: 0.95rem;
+    padding-bottom: 0.05rem;
+}
+/*============= Landing =============*/
+.home-inner{
+    background-image: url(img/o1.jpg);
+    height: 500px;
+}
+
+.caption{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 90%;
+    left: 0%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+
+.caption h1{
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    text-shadow: .1rem .1rem 1rem black;
+    padding-bottom: 0.5rem;
+}
+/*============= Heading =============*/
+.heading{
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    font-size: 4rem;
+    text-decoration: none;
+    letter-spacing: 0.4rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    padding-top: 4rem;
+}
+
+
+/*============= Footer=============*/
+
+footer{
+    background: rgb(70,70,70);
+    color: white;
+    padding: 2rem 0 2rem;
+    margin-top: 1rem;
+}
+footer img{
+    height: 7rem;
+    margin: 1.5rem 0rem;    
+}
+footer a{
+    color: white;
+}
+footer svg.svg-inline--fa{
+    font-size: 2rem;
+    text-decoration: none;
+    margin: 1.2rem 0.5rem 0 0;
+}
+footer svg.svg-inline--fa:hover {
+     color: #ffae42!important;
+    font-weight: 700;
+}
+hr.socket{
+    width: 100%;
+    border-top: 0.2rem solid #fefefe;
+    margin-top: 3rem;
+}
+
+#button1{
+    position: relative; 
+    left:35%;
+    z-index: 1;
+    overflow: hidden; 
+    letter-spacing: 0.2rem;
+    margin: 2px;
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/

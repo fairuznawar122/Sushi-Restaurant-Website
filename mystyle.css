@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body{
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+}
+.offset:before{
+    display: block;
+    content: "";
+    height: 5rem;
+    margin-top: -5rem;
+}
+
+/*============= Navigation =============*/
+
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: 0.2rem;
+    background: rgba(0, 0, 0, 0.4)!important;
+}
+
+.navbar-brand img{
+    height: 3rem;
+}
+.navbar-nav li{
+    padding-right: 0.7rem;
+    
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding-top: 0.8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffae42;
+}
+
+/*============= Landing Page =============*/
+
+.home-inner{
+    background-image: url(img/back.jpg);
+}
+
+.caption{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 65%;
+    left: 27%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+.caption h1{
+    font-size: 2.7rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    text-shadow: .1rem .1rem 1rem black;
+    padding-bottom: 0.5rem;
+}
+.caption h3{
+    font-size: 1.4rem;
+    text-shadow: 0.1rem 0.1rem 0.8rem black;
+    padding-bottom: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+.btn-lg{
+    border-width: medium;
+    border-radius: 0px;
+    padding: 0.4rem 1.2rem;
+    font-size: 1.2rem;
+}
+.btn-lg:hover{
+    color: #ffae42;
+    font-weight: 700;
+    background: black;
+}
+
+
+/*============= About =============*/
+.narrow{
+    width: 75%;
+    margin: 1.5rem auto;
+    padding-top: 2rem;
+}
+.lead{
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    color: black;
+    padding-bottom: 1.4rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+#about h1{
+    font-size: 2.7rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+    color: black;
+}
+
+#about{
+    background-image: url(img/o.jpg);
+    padding: 2rem;
+}
+.btn-secondary{
+    border-width: medium;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    padding: .6rem 1.4rem;
+    background: #fefefe;
+    color: black;
+    letter-spacing: .1rem;
+   
+}
+.btn-secondary:hover{
+    color:  #ffae42;
+    font-weight: 700;
+    background: black;
+}
+
+/*============= Menu =============*/
+.col-md-4{
+    float: left;
+}
+.heading{
+    color: #ffae42;
+    font-weight: 700;
+    text-align: center;
+    font-size: 4rem;
+    text-decoration: none;
+    letter-spacing: 0.4rem;
+    padding-bottom: 60px;
+    text-shadow: 0.2rem 0.2rem 2rem black;
+}
+.card{
+    background: rgba(0, 0, 0, 0.2)!important;
+    border-radius: 0px;
+   
+}
+.card-body{
+    padding: 20px;
+}
+
+.card-title{
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: white;
+}
+.card-title:hover{
+    color: #ffae42;
+    font-weight: 700;
+}
+.jumbotron{
+    background-image: url(img/background.jpg);
+    margin-bottom: 0px;
+    padding: 2rem 0 3.5rem;
+    border-radius: 0px;
+    
+}
+.menulinks{
+    text-decoration: none!important;
+}
+
+/*============= Login =============*/
+.fixed{
+    background-image: url(img/res1.jpg);
+    z-index: -1;
+    padding: 6rem;
+}
+.dark{
+    background: rgba(0, 0, 0, 0.5)!important;
+    color: white;
+    font-weight: 700;
+    padding: 6rem 2rem;
+}
+.fixed-background h3{
+    font-size: 2.8rem;
+    padding-top: 1rem;
+    text-shadow: 0.1rem 0.1rem 0.8rem black;
+    font-weight: 700;
+    color: #ffae42;
+    letter-spacing: 0.2rem;
+}
+.fixed-background p{
+    color: white;
+    padding-top: 2rem;
+    font-size: 1.3rem;
+    text-shadow: 0.1rem 0.1rem 1rem black;
+}
+.fixed-background h4{
+    color: white;
+    font-size: 1.7rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 0.1rem 0.1rem 1rem black;
+    text-decoration: none;
+    padding-bottom: 2rem;
+    
+}
+
+/*============= Footer=============*/
+
+footer{
+    background: rgb(70,70,70);
+    color: white;
+    padding: 2rem 0 2rem;
+    margin-top: 1rem;
+}
+footer img{
+    height: 7rem;
+    margin: 1.5rem 0rem;    
+}
+footer a{
+    color: white;
+}
+footer svg.svg-inline--fa{
+    font-size: 2rem;
+    text-decoration: none;
+    margin: 1.2rem 0.5rem 0 0;
+}
+footer svg.svg-inline--fa:hover {
+     color: #ffae42!important;
+    font-weight: 700;
+}
+hr.socket{
+    width: 100%;
+    border-top: 0.2rem solid #fefefe;
+    margin-top: 3rem;
+}
+
+#button1{
+    position: relative; 
+    left:35%;
+    z-index: 1;
+    overflow: hidden; 
+    letter-spacing: 0.2rem;
+    margin: 2px;
+}
+
+/*------------------------------------Media--------------------------------*/
+@media(max-width:991px){
+.caption h1{
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+    padding-bottom: 0.3rem;
+}
+.caption h3{
+    font-size: 0.8rem;
+    padding-bottom: 0.7rem;
+    letter-spacing: 0.1rem;
+} 
+.btn-lg{
+    padding: 0.3rem 0.6rem;
+    font-size: 0.7rem;
+}
+.caption{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 73%;
+    left: 22%;
+    z-index: 1;
+}
+/*-----------About-----------*/   
+    
+.lead{
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    padding-bottom: 0.6rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+#about h1{
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    padding-bottom: 0.5rem;
+}
+.btn-secondary{
+    border-radius: 2px;
+    font-size: 0.9rem;
+    padding: .5rem 1.2rem;
+}
+ /*---------------Menu-------------------*/     
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+    padding-bottom: 50px;
+}
+.card-title{
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+  
+
+/*-----------------Login----------------*/ 
+.fixed-background h3{
+    font-size: 2rem;
+    padding-top: .7rem;
+}
+.fixed-background p{
+    padding-top: 2.2rem;
+    font-size: 1rem;
+}
+.fixed-background h4{
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    padding-bottom: 1rem;
+    
+}
+
+}
+/*------------------------------------Media--------------------------------*/
+@media(max-width:767px){
+.caption h1{
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    padding-bottom: 0.2rem;
+}
+.caption h3{
+    font-size: 0.7rem;
+    padding-bottom: 0.6rem;
+    letter-spacing: 0.1rem;
+} 
+.btn-lg{
+    padding: 0.2rem 0.5rem;
+    font-size: 0.6rem;
+}
+.caption{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 75%;
+    left: 21%;
+    z-index: 1;
+   
+}
+ /*------------------About------------------*/   
+    
+.lead{
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+    color: black;
+    padding-bottom: 0.6rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+#about h1{
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    padding-bottom: 0.3rem;
+}
+.btn-secondary{
+    border-radius: 1px;
+    font-size: 0.6rem;
+    padding: .3rem .7rem;
+}
+    
+ /*-----------------Menu----------------*/     
+.heading{
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    padding-bottom: 30px;
+}
+.card-title{
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+}
+/*Login*/ 
+.fixed-background h3{
+    font-size: 1.6rem;
+    padding-top: .5rem;
+    color: #ffae42;
+    letter-spacing: 0.2rem;
+}
+.fixed-background p{
+    color: white;
+    padding-top: 2rem;
+    font-size: 0.7rem;
+}
+.fixed-background h4{
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    padding-bottom: 1rem;
+    
+}
+
+
+#button1{
+    position: relative; 
+    left:18%;
+    z-index: 1;
+    letter-spacing: 0.2rem;
+}
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
